@@ -1,7 +1,7 @@
 // Service worker: deja la app guardada en el dispositivo para que abra sin internet.
 // vite.config.ts reemplaza ARCHIVOS (lista de todo el build) y VERSION en cada compilación;
 // una versión nueva descarga todo de nuevo y borra la anterior.
-const VERSION = 'mw142m2s';
+const VERSION = 'mw14cj0w';
 const CACHE = `cortes-carne-${VERSION}`;
 const ARCHIVOS = ["./","./apple-touch-icon.png","./assets/index-Cystls3n.js","./assets/index-DwNviBhX.css","./icono-192.png","./icono-512.png","./icono.svg","./index.html","./manifest.webmanifest"];
 // Los pedidos que hace la página (script/estilo con crossorigin) traen otras cabeceras que el guardado inicial;
