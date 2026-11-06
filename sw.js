@@ -1,9 +1,9 @@
 // Service worker: deja la app guardada en el dispositivo para que abra sin internet.
 // vite.config.ts reemplaza ARCHIVOS (lista de todo el build) y VERSION en cada compilación;
 // una versión nueva descarga todo de nuevo y borra la anterior.
-const VERSION = 'mw14r5sa';
+const VERSION = 'mw5edfte';
 const CACHE = `cortes-carne-${VERSION}`;
-const ARCHIVOS = ["./","./apple-touch-icon.png","./assets/index-Cystls3n.js","./assets/index-DwNviBhX.css","./icono-192.png","./icono-512.png","./icono.svg","./index.html","./manifest.webmanifest"];
+const ARCHIVOS = ["./","./apple-touch-icon.png","./assets/index-C9gJrjq-.css","./assets/index-Cp6hnRje.js","./icono-192.png","./icono-512.png","./icono.svg","./index.html","./manifest.webmanifest"];
 // Los pedidos que hace la página (script/estilo con crossorigin) traen otras cabeceras que el guardado inicial;
 // sin ignoreVary el navegador no los reconoce como el mismo archivo.
 const COINCIDIR = { ignoreSearch: true, ignoreVary: true };
